@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<!-- ImageReady Preload Script (header_logo_Menu.psd) -->
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		header_lm_02_over = newImage("<{$xoops_imageurl}>images/header_lm_02-over.gif");
+		header_lm_03_over = newImage("<{$xoops_imageurl}>images/header_lm_03-over.gif");
+		header_lm_04_over = newImage("<{$xoops_imageurl}>images/header_lm_04-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+
+</head>
+<body onload="preloadImages();" >
+<!-- START HEADER-->
+<table cellspacing="0" id="Main" align="center">
+    <tr class="header">
+      <td > <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr  >
+    <td>
+	<table id="header_lm" width="440" height="127" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3">
+			<a href="<{$xoops_url}>"><img src="<{$xoops_imageurl}>images/header_lm_01.gif" alt="" width="440" height="101" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="<{$xoops_url}>/content/index.php?id=14"
+				onmouseover="changeImages('header_lm_02', '<{$xoops_imageurl}>images/header_lm_02-over.gif'); return true;"
+				onmouseout="changeImages('header_lm_02', '<{$xoops_imageurl}>images/header_lm_02.gif'); return true;"
+				onmousedown="changeImages('header_lm_02', '<{$xoops_imageurl}>images/header_lm_02-over.gif'); return true;"
+				onmouseup="changeImages('header_lm_02', '<{$xoops_imageurl}>images/header_lm_02-over.gif'); return true;">
+				<img name="header_lm_02" src="<{$xoops_imageurl}>images/header_lm_02.gif" width="132" height="26" border="0" alt=""></a></td>
+		<td>
+			<a href="<{$xoops_url}>/modules/wfdownloads/"
+				onmouseover="changeImages('header_lm_03', '<{$xoops_imageurl}>images/header_lm_03-over.gif'); return true;"
+				onmouseout="changeImages('header_lm_03', '<{$xoops_imageurl}>images/header_lm_03.gif'); return true;"
+				onmousedown="changeImages('header_lm_03', '<{$xoops_imageurl}>images/header_lm_03-over.gif'); return true;"
+				onmouseup="changeImages('header_lm_03', '<{$xoops_imageurl}>images/header_lm_03-over.gif'); return true;">
+				<img name="header_lm_03" src="<{$xoops_imageurl}>images/header_lm_03.gif" width="143" height="26" border="0" alt=""></a></td>
+		<td>
+			<a href="<{$xoops_url}>/modules/newbb/index.php?cat=4"
+				onmouseover="changeImages('header_lm_04', '<{$xoops_imageurl}>images/header_lm_04-over.gif'); return true;"
+				onmouseout="changeImages('header_lm_04', '<{$xoops_imageurl}>images/header_lm_04.gif'); return true;"
+				onmousedown="changeImages('header_lm_04', '<{$xoops_imageurl}>images/header_lm_04-over.gif'); return true;"
+				onmouseup="changeImages('header_lm_04', '<{$xoops_imageurl}>images/header_lm_04-over.gif'); return true;">
+				<img name="header_lm_04" src="<{$xoops_imageurl}>images/header_lm_04.gif" width="165" height="26" border="0" alt=""></a></td>
+	</tr>
+</table>	</td>
+    <td align="right"><img src="<{$xoops_imageurl}>images/head2.gif" alt="" width="239" height="127" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="menu"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="menulinks"><strong>Custom Themes:</strong> <a href="<{$xoops_url}>/modules/content/index.php?id=3">Theme Design</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=4">Services</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=2">Design Procedure</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=1">Prices</a> | <a href="<{$xoops_url}>/modules/liaise/index.php?form_id=2">Order Now Custom Theme</a></td>
+        <td class="menulinks2"><a href="<{$xoops_url}>/modules/smartclient/">Client Showcase</a> | <a href="<{$xoops_url}>/modules/PDdownloads/">Free Themes</a> | <a href="<{$xoops_url}>/modules/smartsection/">News</a> | <a href="<{$xoops_url}>/modules/newbb/">Forum</a></td>
+      </tr>
+    </table></td>
+    </tr>
+  <tr>
+    <td colspan="2">
+	<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="1%" align="left"><img src="<{$xoops_imageurl}>images/maincontent_01.gif" alt="" width="25" height="16"></td>
+        <td width="99%" background="<{$xoops_imageurl}>images/maincontent_02.gif" style="background-repeat:repeat-x "><img src="<{$xoops_imageurl}>images/maincontent_02.gif" alt="" width="6" height="16"></td>
+        <td width="1%" align="right"><img src="<{$xoops_imageurl}>images/maincontent_03.gif" alt="" width="17" height="16"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="1%" align="left" background="<{$xoops_imageurl}>images/maincontent_04.gif" style="background-repeat:repeat-y "><img src="<{$xoops_imageurl}>images/maincontent_04.gif" alt="" width="21" height="4"></td>
+        <td width="99%" bgcolor="#FFFFFF">
+		<table cellspacing="0" id="Content" align="center">
+  <tr>
+  <{if $xoops_showlblock == 1}>
+    <td id="leftcolumn">
+      <!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}> <{include file="$xoops_theme/theme_blockleft.html"}> <{/foreach}>
+      <!-- End left blocks loop -->
+    </td><{/if}>
+    <td id="centercolumn">
+      <!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+      <table cellspacing="0">
+        <tr>
+          <td id="centerCcolumn" colspan="2">
+            <!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}> <{include file="$xoops_theme/theme_blockcenter_c.html"}> <{/foreach}>
+            <!-- End center-center blocks loop -->
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" ><div id="content"> <{$xoops_contents}> </div></td>
+          </tr>
+        <tr>
+          <td id="centerLcolumn">
+            <!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}> <{include file="$xoops_theme/theme_blockcenter_l.html"}> <{/foreach}>
+            <!-- End center-left blocks loop -->
+          </td>
+          <td id="centerRcolumn">
+            <!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}> <{include file="$xoops_theme/theme_blockcenter_r.html"}> <{/foreach}>
+            <!-- End center-right blocks loop -->
+          </td>
+        </tr>
+      </table>
+<{/if}>
+      <!-- End display center blocks -->
+      </td>
+    <{if $xoops_showrblock == 1}>
+    <td id="rightcolumn">
+      <!-- Start right blocks loop -->
+<{foreach item=block from=$xoops_rblocks}> <{include file="$xoops_theme/theme_blockright.html"}> <{/foreach}>
+      <!-- End right blocks loop -->
+    </td>
+<{/if}> </tr>
+</table>
+		
+		</td>
+        <td width="1%" align="right" background="<{$xoops_imageurl}>images/maincontent_05.gif" style="background-repeat:repeat-y "><img src="<{$xoops_imageurl}>images/maincontent_05.gif" alt="" width="19" height="4"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="1%" align="left"><img src="<{$xoops_imageurl}>images/maincontent_06.gif" alt="" width="19" height="18"></td>
+        <td width="99%"  background="<{$xoops_imageurl}>images/maincontent_07.gif" style="background-repeat:repeat-x "><img src="<{$xoops_imageurl}>images/maincontent_07.gif" alt="" width="6" height="18"></td>
+        <td width="1%" align="right"><img src="<{$xoops_imageurl}>images/maincontent_09.gif" alt="" width="20" height="18"></td>
+      </tr>
+    </table>
+	</td>
+  </tr>
+</table>
+	</td>
+  </tr>
+</table></td>
+    </tr>
+</table>
+<table id="footer"  border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td class="footer"><a href="<{$xoops_url}>/modules/content/index.php?id=14">Membership Subscription</a> |  <a href="<{$xoops_url}>/modules/content/index.php?id=3">Theme Design</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=4">Services</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=2">Design Procedure</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=1">Prices</a> | <a href="<{$xoops_url}>/modules/liaise/index.php?form_id=2">Order Now Custom Theme</a> | <a href="<{$xoops_url}>/modules/smartclient/">Client Showcase</a> | <a href="<{$xoops_url}>/modules/PDdownloads/">Free Themes</a> | <a href="<{$xoops_url}>/modules/smartsection/">News</a> | <a href="<{$xoops_url}>/modules/newbb/">Forum</a> | <a href="<{$xoops_url}>/modules/content/index.php?id=16">Terms and Conditions</a><br />
+    <br />
+    Copyright &copy; 2006 XOOPSDesign.com. All rights reserved.<br />
+    2CheckOut.com Inc. (Ohio, USA) is an authorized reseller for goods and services provided by XoopsDesign.com.</td>
+  </tr>
+</table>
+<p></p>
+</body>
+</html>
